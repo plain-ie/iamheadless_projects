@@ -8,3 +8,4 @@ App to manage project/tenant/user hierarchy. This app is decoupled from Django n
 2. add `iamheadless_projects` to `INSTALLED_APPS` in `settings.py`
 3. add `AUTH_USER_MODEL = 'iamheadless_projects.User'` in `settings.py`
 4. run migrations `python manage.py migrate`
+
