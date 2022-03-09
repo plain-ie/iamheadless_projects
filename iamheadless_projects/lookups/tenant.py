@@ -42,7 +42,7 @@ def get_tenant(
 
     if format in ['dict', 'json']:
 
-        pydantic_model = TenantSchema.form_django(tenant)
+        pydantic_model = TenantSchema.from_django(tenant)
 
         if format == 'dict':
             return pydantic_model.dict()
