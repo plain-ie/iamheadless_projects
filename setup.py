@@ -5,7 +5,7 @@ setup(
     name="iamheadless_projects",
 
     # Version number (initial):
-    version="1.0.0",
+    version="0.0.1",
 
     # Application author details:
     author="Maris Erts",
