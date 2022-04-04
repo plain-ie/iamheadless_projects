@@ -28,7 +28,7 @@ setup(
 
     # Dependent packages (distributions)
     install_requires=[
-        "django>=4.0.2",
+        "django==4.0.3",
         "djantic==0.4.1",
         "networkx==2.6.3",
         "pydantic==1.9.0",
