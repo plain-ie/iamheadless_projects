@@ -28,6 +28,7 @@ def create_initial_user(apps, schema_editor):
     if user is None:
         user = User.objects.create(
             username='user@example.com',
+            email='user@example.com',
             first_name='intial',
             last_name='user',
         )
