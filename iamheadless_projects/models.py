@@ -34,7 +34,7 @@ class Project(models.Model):
 
 class Tenant(models.Model):
     name = models.CharField(max_length=255, blank=True, null=True)
-    parent = models.ForeignKey('Tenant', related_name='children', on_delete=models.CASCADE, blank=True, null=True)
+    parent = models.ForeignKey('Tenant', related_name='children', on_delete=models.SET_NULL, blank=True, null=True)
 
     def __str__(self):
         return self.name
